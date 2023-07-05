@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "87150810083",
+    "firebase_url": "https://cardiacrecorder-51d20-default-rtdb.firebaseio.com",
+    "project_id": "cardiacrecorder-51d20",
+    "storage_bucket": "cardiacrecorder-51d20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87150810083:android:5d414979c067cb70f3c6d6",
+        "android_client_info": {
+          "package_name": "com.example.cardiacrecorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87150810083-ivpm7mjf06rmd8n4ip7blhl42ucrqtf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5m8HBBTuzCHMWFfdt-NhrNU_cEstDT6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87150810083-ivpm7mjf06rmd8n4ip7blhl42ucrqtf7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
