@@ -2,13 +2,13 @@ package com.example.cardiacrecorder;
 
 import java.util.Date;
 
-public class AddNewData{
+public class Add{
 
     int systolic,diastolic, heartRate;
     String id,comment;
     Date date;
 
-    public AddNewData(int systolic, int diastolic, int heartRate, String id, String comment, Date date) {
+    public Add(int systolic, int diastolic, int heartRate, String id, String comment, Date date) {
         this.systolic = systolic;
         this.diastolic = diastolic;
         this.heartRate = heartRate;

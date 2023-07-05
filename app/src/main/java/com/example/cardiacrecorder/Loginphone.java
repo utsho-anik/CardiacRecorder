@@ -31,15 +31,15 @@ import java.util.List;
 /**
  * Adapter Class to show data to RecyclerView
  */
-public class Adapter_Stat extends RecyclerView.Adapter<Adapter_Stat.ViewHolder> {
+public class Loginphone extends RecyclerView.Adapter<Loginphone.ViewHolder> {
     List<AddNewData> DataList;
     Context context;
 
-    public Adapter_Stat(List<AddNewData> dataList, Context context) {
+    public Loginphone(List<AddNewData> dataList, Context context) {
         DataList = dataList;
         this.context = context;
     }
-    public Adapter_Stat(List<AddNewData> dataList) {
+    public Loginphone(List<AddNewData> dataList) {
         DataList = dataList;
     }
 

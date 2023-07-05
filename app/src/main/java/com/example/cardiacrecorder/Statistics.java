@@ -33,7 +33,7 @@ public class Statistics extends AppCompatActivity {
 
     LinearLayoutManager linearLayoutManager;
     List<AddNewData> dataList=new ArrayList<>();
-    Adapter_Stat adapter;
+    Utility adapter;
     RecyclerView recyclerView;
     TextInputLayout textInputLayout;
     AutoCompleteTextView autoCompleteTextView;
@@ -222,7 +222,7 @@ public class Statistics extends AppCompatActivity {
         linearLayoutManager=new LinearLayoutManager(Statistics.this);
         linearLayoutManager.setOrientation(RecyclerView.VERTICAL);
         recyclerView.setLayoutManager(linearLayoutManager);
-        adapter=new Adapter_Stat(dataList,Statistics.this);
+        adapter=new Utility(dataList,Statistics.this);
         recyclerView.setAdapter(adapter);
         adapter.notifyDataSetChanged();
 
