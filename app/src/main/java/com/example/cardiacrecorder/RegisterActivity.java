@@ -1,8 +1,5 @@
 package com.example.cardiacrecorder;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -11,6 +8,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -41,7 +41,7 @@ public class RegisterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register);
         alreadyhaveanaccount=findViewById(R.id.alreadyhaveanaccount);
         username=findViewById(R.id.username);
-        email=findViewById(R.id.email);
+        email=findViewById(R.id.emailRegister);
         phone=findViewById(R.id.phone);
         password=findViewById(R.id.password);
         repassword=findViewById(R.id.repassword);

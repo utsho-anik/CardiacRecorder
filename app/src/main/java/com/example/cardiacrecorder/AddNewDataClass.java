@@ -1,13 +1,13 @@
 package com.example.cardiacrecorder;
 
-import android.content.ClipData;
-
 import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Date;
 import java.util.List;
 
-public class AddNewDataClass{
+/*
+ this class represents a list of AddNewData
+ */
+
+public class AddNewDataClass {
     public List<AddNewData> records = new ArrayList<>(); //a list of type "AddNewData" is declared
 
     /**

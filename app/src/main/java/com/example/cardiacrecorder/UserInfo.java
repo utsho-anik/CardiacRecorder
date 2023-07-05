@@ -1,7 +1,6 @@
 package com.example.cardiacrecorder;
 
 public class UserInfo {
-
     String name;
     float height, weight;
 

@@ -1,8 +1,5 @@
 package com.example.cardiacrecorder;
 
-import android.content.ClipData;
-
-import java.util.Comparator;
 import java.util.Date;
 
 public class AddNewData{
