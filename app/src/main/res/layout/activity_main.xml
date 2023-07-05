@@ -4,15 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="#ffffff">
+    android:background="@color/white"
+    tools:context=".MainActivity">
 
-   <TextView
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:text="hello world">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/imageview"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:adjustViewBounds="false"
+        android:src="@drawable/cr1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"/>
 
-   </TextView>
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="348dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="5dp"
+        android:text="Live Healthy,Stay Young at Heart"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageview"
+        app:layout_constraintVertical_bias="0.603" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
