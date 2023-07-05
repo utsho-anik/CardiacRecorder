@@ -1,7 +1,5 @@
 package com.example.cardiacrecorder;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.content.Intent;
@@ -40,10 +38,17 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this, reg_log_option.class);
-                startActivity(intent);
-                finish();
-            }
+                if(getSharedPreferences("sp",MODE_PRIVATE).getBoolean("amILoggedIn",false)){
+                    Intent intent = new Intent(MainActivity.this, homepage.class);
+                    startActivity(intent);
+                    finish();
+                }
+                else{
+                    Intent intent = new Intent(MainActivity.this, reg_log_option.class);
+                    startActivity(intent);
+                    finish();
+                }
+           }
         },3000);
     }
 }

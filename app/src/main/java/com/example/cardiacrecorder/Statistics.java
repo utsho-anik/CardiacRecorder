@@ -38,7 +38,6 @@ public class Statistics extends AppCompatActivity {
     TextInputLayout textInputLayout;
     AutoCompleteTextView autoCompleteTextView;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +46,8 @@ public class Statistics extends AppCompatActivity {
 
 
         // showing the back button in action bar
+
+        if(actionBar != null)
         actionBar.setDisplayHomeAsUpEnabled(true);
 
 

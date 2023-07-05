@@ -292,9 +292,7 @@ public class homepage extends AppCompatActivity {
 
                 Intent intent =new Intent(homepage.this,Statistics.class);
                 startActivity(intent);
-                finish();
-
-
+                //finish();
             }
         });
 
