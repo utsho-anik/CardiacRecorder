@@ -1,5 +1,6 @@
 package com.example.cardiacrecorder;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -34,6 +35,8 @@ public class homepage extends AppCompatActivity {
         setContentView(R.layout.activity_homepage);
         Button button=findViewById(R.id.add_new);
         Button stat= findViewById(R.id.button3);
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"})
+        Button lout= findViewById(R.id.logout);
 
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -295,6 +298,11 @@ public class homepage extends AppCompatActivity {
                 //finish();
             }
         });
-
+        lout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(homepage.this,reg_log_option.class));
+            }
+        });
     }
 }

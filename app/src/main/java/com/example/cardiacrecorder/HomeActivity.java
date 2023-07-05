@@ -2,6 +2,7 @@ package com.example.cardiacrecorder;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -29,8 +30,8 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        Button button=findViewById(R.id.add_new);
-        Button stat= findViewById(R.id.button3);
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Button button=findViewById(R.id.add_new);
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) Button stat= findViewById(R.id.button3);
 
 
         button.setOnClickListener(new View.OnClickListener() {
