@@ -49,8 +49,8 @@
                 android:layout_gravity="fill"
                 android:layout_margin="8dp"
                 app:cardBackgroundColor="@color/LogInAction"
-                app:cardCornerRadius="15dp"
-                app:cardElevation="10dp">
+                app:cardCornerRadius="100dp"
+                app:cardElevation="30dp">
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
@@ -114,8 +114,8 @@
                 android:layout_gravity="fill"
                 android:layout_margin="8dp"
                 app:cardBackgroundColor="@color/LogInAction"
-                app:cardCornerRadius="15dp"
-                app:cardElevation="10dp">
+                app:cardCornerRadius="100dp"
+                app:cardElevation="30dp">
 
                 <RelativeLayout
                     android:layout_width="wrap_content"
@@ -276,7 +276,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:text="Statistics"
+                    android:text="Details"
                     android:textColor="@color/LogInAction"
                     android:backgroundTint="#21295C"
                     app:cornerRadius="50dp" />

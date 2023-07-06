@@ -60,6 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Heart Rate: "
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
         <TextView
@@ -67,6 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="80"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -76,6 +78,7 @@
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:layout_below="@+id/listllheart"
 
         android:orientation="horizontal">
@@ -84,10 +87,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Systolic: "
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
         <TextView
             android:id="@+id/ItemSystolic"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="80"
@@ -98,6 +103,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:textColor="@color/black"
         android:layout_below="@id/listll1"
         android:layout_marginTop="5dp"
         android:id="@+id/listll2">
@@ -106,13 +112,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Diastolic: "
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="120"
-            android:id="@+id/ItemDiastolic"
+            android:textColor="@color/black"            android:id="@+id/ItemDiastolic"
             android:textSize="20sp"
             />
 
@@ -123,6 +130,7 @@
         android:id="@+id/listllcomment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:layout_below="@id/listll2"
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
@@ -131,6 +139,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Comment: "
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
         <TextView
@@ -138,6 +147,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nothing"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
     </LinearLayout>

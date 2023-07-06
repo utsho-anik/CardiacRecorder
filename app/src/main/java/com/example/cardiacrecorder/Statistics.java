@@ -1,5 +1,6 @@
 package com.example.cardiacrecorder;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -38,6 +39,7 @@ public class Statistics extends AppCompatActivity {
     TextInputLayout textInputLayout;
     AutoCompleteTextView autoCompleteTextView;
 
+    @SuppressLint("SuspiciousIndentation")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
