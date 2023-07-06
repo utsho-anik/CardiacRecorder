@@ -205,9 +205,9 @@ public class Adapter_Stat extends RecyclerView.Adapter<Adapter_Stat.ViewHolder> 
                             hrate.setError("Required");
                             er=true;
                         }
-                        else if(Integer.parseInt(heartrate)<30)
+                        else if(Integer.parseInt(heartrate)<40)
                         {
-                            hrate.setError("Minimum Value is 60");
+                            hrate.setError("Minimum Value is 40");
                             er=true;
                         }
                         else if(Integer.parseInt(heartrate)>120)
